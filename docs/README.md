@@ -1,25 +1,30 @@
 # Project Documentation
 
-## Architecture
+## Overview
 This project implements a Retrieval-Augmented Generation (RAG) system
-to navigate and explain large code repositories.
+to navigate, search, and explain large code repositories.
 
-### Workflow
-1. Ingest GitHub repositories
-2. Parse files and chunk code
-3. Generate embeddings
-4. Store vectors in FAISS
-5. Retrieve relevant context
-6. Generate answers using LLM
+## Architecture
+1. GitHub repository ingestion
+2. Code parsing and chunking
+3. Embedding generation
+4. Vector storage using FAISS
+5. Context retrieval
+6. LLM-based answer generation
 
 ## Components
-- Code parser
-- Embedding generator
-- Vector database
-- Retrieval engine
-- LLM-based explanation module
+- Repository Ingestion Module
+- Embedding Generator
+- Vector Database
+- Retrieval Engine
+- Response Generator
+
+## Current Status
+- Repository structure completed
+- Documentation added
+- Ingestion module implemented
 
 ## Future Enhancements
+- Dependency graph visualization
 - VS Code extension
-- Multi-repository support
-- Agent-based reasoning
+- Multi-repo querying
